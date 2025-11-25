@@ -1,0 +1,30 @@
+:root {
+        /* FUNDO CLARO */
+    --texto-claro: #000;
+    --fundo-claro: #fff;
+    --hover-claro: #3b3838;
+    --botao-menu-claro: #A9A9A9;
+    --botao-config-claro: #666666;
+}
+
+body.claro {
+    background-color: var(--fundo-claro);
+    transition: 0.2s ease-in-out;
+}
+
+#menu.claro ul li:hover {
+    background-color: var(--hover-claro);
+}
+
+#botao-menu.claro {
+    background-color: var(--botao-menu-claro);
+}
+
+.configuracao.claro {
+    color: var(--texto-claro);
+    transition: 0.2s ease-in-out;
+}
+
+.botao-config.claro {
+    background-color: var(--botao-config-claro);
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="claro.css">
+    <title>Configurações</title>
+</head>
+<body class="mudaCor">
+    <div class="mudaCor" id="menu">
+        <img src="/Início/foto do aluno.png" alt="Foto do Aluno">
+            <nav>
+                <ul>
+                    <li><a href="/Início/index.html"><i class="fa-solid fa-house-chimney"></i>Início</a></li>
+                    <li><a href="#"><i class="fa-solid fa-calendar-days"></i>Grade Horária e Ausências</a></li>
+                    <li><a href="#"><i class="fa-solid fa-circle-user"></i>Seus Dados</a></li>
+                    <li><a href="#"><i class="fa-solid fa-comment-dots"></i>Notificações</a></li>
+                    <li><a href="#"><i class="fa-solid fa-utensils"></i>Cardápio</a></li>
+                    <li><a href="#"><i class="fa-regular fa-rectangle-list"></i>Boletim</a></li>
+                    <li><a href="#"><i class="fa-regular fa-newspaper"></i>Notícias</a></li>
+                    <li><a href="#"><i class="fa-solid fa-graduation-cap"></i>Grêmio Estudantil</a></li>
+                    <li><a href="#"><i class="fa-solid fa-comments"></i>Feedback ao Desenvolvedor</a></li>
+                    <li><a href="#"><i class="fa-solid fa-right-to-bracket"></i>Sair</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <button class="mudaCor" id="botao-menu" onclick="btn()">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        
+        <main>
+            <div id="fundo">
+                    <div class="configuracao">
+                        <div class="titulo">
+                            <h1>Mudança de Cores do Sitema</h1>
+                        </div>
+
+                        <div class="descricao">
+                            <p>Muda as cores do sistema. (modo de cores personalizado em breve.)</p>
+                        </div>
+
+                        <div>
+                            <button class="botao-config" onclick="mudarCor()">Mudar</button>
+                        </div>
+                    </div>
+
+                    <div class="configuracao">
+                        <div class="titulo">
+                            <h1>configuração x</h1>
+                        </div>
+
+                        <div class="descricao">
+                            <p>(conteudo no qual a configuração realiza)</p>
+                        </div>
+
+                        <div>
+                            <button class="botao-config">Aplicar</button>
+                        </div>
+                    </div>
+
+                    <div class="configuracao">
+                        <div class="titulo">
+                            <h1>configuração x</h1>
+                        </div>
+
+                        <div class="descricao">
+                            <p>(conteudo no qual a configuração realiza)</p>
+                        </div>
+
+                        <div>
+                            <button class="botao-config">Aplicar</button>
+                        </div>
+                    </div>
+
+                    <div class="configuracao">
+                        <div class="titulo">
+                            <h1>configuração x</h1>
+                        </div>
+
+                        <div class="descricao">
+                            <p>(conteudo no qual a configuração realiza)</p>
+                        </div>
+
+                        <div>
+                            <button class="botao-config">Aplicar</button>
+                        </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="rodape">
+                <h1>Esse site está em versão teste. Reporte qualquer erro ou encomodo <a href="https://forms.gle/aYs29GPWpXdsueBr6">Aqui.</a></h1>
+            </div>
+        </footer>
+    </div>
+</body>
+
+<style>
+    #botao-menu {
+    position: fixed;
+    left: -1.5%;
+    top: 47%;
+    width: 50px;
+    height: 50px;
+    background-color: var(--botao-escuro);
+    border: none;
+    border-radius: 100px;
+    font-size: 23px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    filter: opacity(40%);   
+    }
+
+    #botao-menu:hover {
+        background-color: var(--botao-hover-escuro);
+        width: 55px;
+        height: 55px;
+        left: -1.38%;
+        top: 46.7%;
+    }
+</style>
+
+<script src="./script.js"></script>
+
+</html>
